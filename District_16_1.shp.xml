@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<!-- <!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd"> -->
+<metadata xml:lang="en"><Esri><CreaDate>20160302</CreaDate><CreaTime>07460900</CreaTime><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process Name="Create Feature Class" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CreateFeatureclass" Date="20151021" Time="112219">CreateFeatureclass C:\TEMP\Move.mdb PostcodeSmallUser # GIS_Layer SAME_AS_TEMPLATE SAME_AS_TEMPLATE "PROJCS['British_National_Grid',GEOGCS['GCS_OSGB_1936',DATUM['D_OSGB_1936',SPHEROID['Airy_1830',6377563.396,299.3249646]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Transverse_Mercator'],PARAMETER['False_Easting',400000.0],PARAMETER['False_Northing',-100000.0],PARAMETER['Central_Meridian',-2.0],PARAMETER['Scale_Factor',0.999601272],PARAMETER['Latitude_Of_Origin',49.0],UNIT['Meter',1.0]];-811780.3804 -199314.454 1000;0 1;0 1" # 0 0 0 C:\TEMP\Move.mdb\PostcodeSmallUser</Process><Process Name="Append" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Append" Date="20151021" Time="112350">Append GIS_Layer C:\TEMP\Move.mdb\PostcodeSmallUser TEST C:\TEMP\Move.mdb\PostcodeSmallUser</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151021" Time="112350">FeatureClassToFeatureClass "Database Connections\Connection to gis.sde\census.GIS.GROSMain\census.GIS.PC_SU_LIVE" C:\TEMP\Move.mdb PostcodeSmallUser # "SUL_PCSU SUL_PCSU VISIBLE;SUL_SORT_CODE SUL_SORT_CODE VISIBLE;SUL_DT_INT SUL_DT_INT VISIBLE;SUL_DPC SUL_DPC VISIBLE;SUL_DPC_NR SUL_DPC_NR VISIBLE;SUL_HH SUL_HH VISIBLE;SUL_COA_CODE SUL_COA_CODE VISIBLE;SUL_WMP_CODE SUL_WMP_CODE VISIBLE;SUL_EUC_CODE SUL_EUC_CODE VISIBLE;SUL_RGD_CODE SUL_RGD_CODE VISIBLE;SUL_INI_CODE SUL_INI_CODE VISIBLE;SUL_CPA_CODE SUL_CPA_CODE VISIBLE;SUL_TWA_CODE SUL_TWA_CODE VISIBLE;SUL_LEC_CODE SUL_LEC_CODE VISIBLE;SUL_SCP_CODE SUL_SCP_CODE VISIBLE;SUL_SPR_CODE SUL_SPR_CODE VISIBLE;SUL_RED_CODE SUL_RED_CODE VISIBLE;SUL_LU2_CODE SUL_LU2_CODE VISIBLE;SUL_UR8_CODE SUL_UR8_CODE VISIBLE;SUL_UR6_CODE SUL_UR6_CODE VISIBLE;SUL_NAP_CODE SUL_NAP_CODE VISIBLE;SUL_SCT_CODE SUL_SCT_CODE VISIBLE;SUL_BORD_IND SUL_BORD_IND VISIBLE;SUL_DTZ_CODE SUL_DTZ_CODE VISIBLE;SUL_IDZ_CODE SUL_IDZ_CODE VISIBLE;SUL_SIMD SUL_SIMD VISIBLE;SUL_SPLIT_IND SUL_SPLIT_IND VISIBLE;SUL_CHP_CODE SUL_CHP_CODE VISIBLE;SUL_ROALOC_CODE SUL_ROALOC_CODE VISIBLE;SUL_ROACPP_CODE SUL_ROACPP_CODE VISIBLE;SUL_CHP2012_CODE SUL_CHP2012_CODE VISIBLE;SUL_CHCP2011_CODE SUL_CHCP2011_CODE VISIBLE;ED_ID ED_ID VISIBLE;SUL_EHV SUL_EHV VISIBLE;SUL_PPV SUL_PPV VISIBLE;SUL_DEL_TYPE SUL_DEL_TYPE VISIBLE;SUL_HTC_IND SUL_HTC_IND VISIBLE;ID ID VISIBLE;SUL_SPR_2014 SUL_SPR_2014 VISIBLE;SUL_SPC_2014 SUL_SPC_2014 VISIBLE;SUL_SDPA_CODE SUL_SDPA_CODE VISIBLE;SUL_CHP2011_CODE SUL_CHP2011_CODE VISIBLE;SUL_DTZ2011_CODE SUL_DTZ2011_CODE VISIBLE;SUL_IDZ2011_CODE SUL_IDZ2011_CODE VISIBLE;SHAPE.area SHAPE.area VISIBLE;SHAPE.len SHAPE.len VISIBLE" SAME_AS_TEMPLATE SAME_AS_TEMPLATE # 0 C:\TEMP\Move.mdb\PostcodeSmallUser</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151022" Time="112428">FeatureClassToFeatureClass C:\TEMP\Move.mdb\PostcodeSmallUser "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,MultiStorey,-1,-1;SHAPE_Length "SHAPE_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,SHAPE_Length,-1,-1;SHAPE_Area "SHAPE_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,SHAPE_Area,-1,-1" GEOMETRY</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151029" Time="144811">FeatureClassToFeatureClass "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser" C:\TEMP\Move.mdb PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength__ "Shape.STLength()" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151030" Time="093520">FeatureClassToFeatureClass C:\TEMP\Move.mdb\PostcodeSmallUser "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" true false false 8 Double 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape.STLength()" true false false 8 Double 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\Move.mdb\PostcodeSmallUser,Shape_Area,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151111" Time="094527">FeatureClassToFeatureClass "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser" C:\TEMP\LOZ.mdb PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape.STLength()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape.STArea()" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength_1 "Shape.STLength()" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151111" Time="095524">FeatureClassToFeatureClass C:\TEMP\LOZ.mdb\PostcodeSmallUser "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape.STLength()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape.STArea()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Shape_STArea_1,-1,-1;Shape_STLength_1 "Shape.STLength()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Shape_STLength_1,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\LOZ.mdb\PostcodeSmallUser,Shape_Area,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151209" Time="142950">FeatureClassToFeatureClass "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser" C:\TEMP\LargeUsers.mdb PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape.STLength()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape.STArea()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea_1,-1,-1;Shape_STLength_1 "Shape.STLength()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength_1,-1,-1;Shape_STArea_12 "Shape_STArea_12" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength_12 "Shape_STLength_12" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151209" Time="145124">FeatureClassToFeatureClass C:\TEMP\LargeUsers.mdb\PostcodeSmallUser "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape.STLength()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape.STArea()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_STArea_1,-1,-1;Shape_STLength_1 "Shape.STLength()" true false false 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_STLength_1,-1,-1;Shape_STArea_12 "Shape_STArea_12" true false false 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_STArea_12,-1,-1;Shape_STLength_12 "Shape_STLength_12" true false false 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_STLength_12,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\LargeUsers.mdb\PostcodeSmallUser,Shape_Area,-1,-1" GEOMETRY</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151211" Time="080604">FeatureClassToFeatureClass "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser" C:\TEMP\Thaw.mdb PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape.STArea()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape.STLength()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape.STArea()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea_1,-1,-1;Shape_STLength_1 "Shape.STLength()" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength_1,-1,-1;Shape_STArea_12 "Shape_STArea_12" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea_12,-1,-1;Shape_STLength_12 "Shape_STLength_12" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength_12,-1,-1;Shape_STArea_12_13 "Shape_STArea_12_13" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength_12_13 "Shape_STLength_12_13" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20151211" Time="111059">FeatureClassToFeatureClass C:\TEMP\Thaw.mdb\PostcodeSmallUser "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,MultiStorey,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\Thaw.mdb\PostcodeSmallUser,Shape_Area,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160111" Time="105819">FeatureClassToFeatureClass "Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser" "Database Connections\PostcodeNRSSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape_STArea__" false false true 0 Double 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength__ "Shape_STLength__" false false true 0 Double 0 0 ,First,#,Database Connections\Postcode_Dev.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" GEOMETRY</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160119" Time="102704">FeatureClassToFeatureClass "Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser" "Database Connections\Postcode_Dev.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape_STArea__" true false false 8 Double 8 38 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape_STLength__" true false false 8 Double 8 38 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape_STArea_1" false false true 0 Double 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength_1 "Shape_STLength_1" false false true 0 Double 0 0 ,First,#,Database Connections\PostcodeNRS.sde\postcodeNRS.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" GEOMETRY</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160119" Time="103942">FeatureClassToFeatureClass "Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser" C:\TEMP\Freeze.mdb PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape_STArea__" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape_STLength__" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_STArea_1 "Shape_STArea_1" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STArea_1,-1,-1;Shape_STLength_1 "Shape_STLength_1" true false false 8 Double 8 38 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape_STLength_1,-1,-1;Shape_STArea_12 "Shape_STArea_12" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength_12 "Shape_STLength_12" false false true 0 Double 0 0 ,First,#,Database Connections\Connection to 10.192.1.131Postcode_DevAsSDE.sde\Postcode_Dev.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160122" Time="104509">FeatureClassToFeatureClass C:\TEMP\Freeze.mdb\PostcodeSmallUser "Database Connections\ConnectionToPostcodeAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,MultiStorey,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\Freeze.mdb\PostcodeSmallUser,Shape_Area,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160217" Time="134631">FeatureClassToFeatureClass "Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser" C:\TEMP\Update.mdb PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 36 Date 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 5 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 5 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 5 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape_STArea__" false false true 0 Double 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,Shape.STArea(),-1,-1;Shape_STLength__ "Shape_STLength__" false false true 0 Double 0 0 ,First,#,Database Connections\ConnectionToPostcodeAsSDE.sde\Postcode.SDE.PostcodeSmallUser,Shape.STLength(),-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160217" Time="141314">FeatureClassToFeatureClass C:\TEMP\Update.mdb\PostcodeSmallUser "Database Connections\ConnectionToPostcodeAsSDE.sde" PostcodeSmallUser # "Postcode "Postcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,Postcode,-1,-1;SortPostcode "SortPostcode" true false false 9 Text 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,SortPostcode,-1,-1;IntroductionDate "IntroductionDate" true false false 8 Date 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,IntroductionDate,-1,-1;DeliveryPointCount "DeliveryPointCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,DeliveryPointCount,-1,-1;DeliveryPointCountNonRes "DeliveryPointCountNonRes" true false false 2 Short 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,DeliveryPointCountNonRes,-1,-1;HouseholdCount "HouseholdCount" true false false 2 Short 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,HouseholdCount,-1,-1;CouncilArea "CouncilArea" true false false 9 Text 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,CouncilArea,-1,-1;Island "Island" true true false 3 Text 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,Island,-1,-1;IsSplit "IsSplit" true true false 1 Text 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,IsSplit,-1,-1;MultiStorey "MultiStorey" true true false 1 Text 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,MultiStorey,-1,-1;Shape_STArea__ "Shape_STArea__" true false false 8 Double 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,Shape_STArea__,-1,-1;Shape_STLength__ "Shape_STLength__" true false false 8 Double 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,Shape_STLength__,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0 ,First,#,C:\TEMP\Update.mdb\PostcodeSmallUser,Shape_Area,-1,-1" GEOMETRY</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20160302" Time="071121">FeatureClassToFeatureClass "T:\Geography\Products\Digital Boundaries and Extract Data\Customer_Extract_Data\2016 v 1\Boundaries\DATA2016_1Cut.shp" C:\TEMP\Maps.mdb\BritishNationalGrid DATA2016_1 # "OBJECTID "OBJECTID" true true false 10 Double 0 10 ,First,#,T:\Geography\Products\Digital Boundaries and Extract Data\Customer_Extract_Data\2016 v 1\Boundaries\DATA2016_1Cut.shp,OBJECTID,-1,-1;Postcode "Postcode" true true false 9 Text 0 0 ,First,#,T:\Geography\Products\Digital Boundaries and Extract Data\Customer_Extract_Data\2016 v 1\Boundaries\DATA2016_1Cut.shp,Postcode,-1,-1;Shape_STAr "Shape_STAr" true true false 19 Double 0 0 ,First,#,T:\Geography\Products\Digital Boundaries and Extract Data\Customer_Extract_Data\2016 v 1\Boundaries\DATA2016_1Cut.shp,Shape_STAr,-1,-1;Shape_STLe "Shape_STLe" true true false 19 Double 0 0 ,First,#,T:\Geography\Products\Digital Boundaries and Extract Data\Customer_Extract_Data\2016 v 1\Boundaries\DATA2016_1Cut.shp,Shape_STLe,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20160302" Time="074142">Dissolve C:\TEMP\Maps.mdb\BritishNationalGrid\DATA2016_1 C:\TEMP\Maps.mdb\BritishNationalGrid\District_16_1 District # MULTI_PART DISSOLVE_LINES</Process></lineage><itemProps><itemName Sync="TRUE">District_16_1</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\GIS-TEAM-CAROLI\C$\TEMP\Maps.mdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_OSGB_1936</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">British_National_Grid</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;British_National_Grid&amp;quot;,GEOGCS[&amp;quot;GCS_OSGB_1936&amp;quot;,DATUM[&amp;quot;D_OSGB_1936&amp;quot;,SPHEROID[&amp;quot;Airy_1830&amp;quot;,6377563.396,299.3249646]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,-100000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-2.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996012717],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,49.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,27700]]&lt;/WKT&gt;&lt;XOrigin&gt;-5220400&lt;/XOrigin&gt;&lt;YOrigin&gt;-15524400&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;27700&lt;/WKID&gt;&lt;LatestWKID&gt;27700&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><SyncDate>20160302</SyncDate><SyncTime>07405700</SyncTime><ModDate>20160302</ModDate><ModTime>07405700</ModTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.1.3143</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"/><countryCode value="GBR" Sync="TRUE"/></dataLang><idCitation><resTitle Sync="TRUE">District_16_1</resTitle><presForm><PresFormCd value="005" Sync="TRUE"/></presForm></idCitation><spatRpType><SpatRepTypCd value="001" Sync="TRUE"/></spatRpType></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"/><countryCode value="GBR" Sync="TRUE"/></mdLang><distInfo><distFormat><formatName Sync="TRUE">Personal GeoDatabase Feature Class</formatName></distFormat></distInfo><mdHrLv><ScopeCd value="005" Sync="TRUE"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="27700" Sync="TRUE"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.11.2</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="District_16_1"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><spdoinfo><ptvctinf><esriterm Name="District_16_1"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><eainfo><detailed Name="District_16_1"><enttyp><enttypl Sync="TRUE">District_16_1</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID_1</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">District</attrlabl><attalias Sync="TRUE">District</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed></eainfo><mdDateSt Sync="TRUE">20160302</mdDateSt><gmd:GEMINI_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+		<gmd:fileIdentifier>
+			<gco:CharacterString>c0d1bdda-a140-4b15-8e59-b8d5865ab223</gco:CharacterString>
+		</gmd:fileIdentifier>
+		<gmd:hierarchyLevel>
+			<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">Dataset</gmd:MD_ScopeCode>
+		</gmd:hierarchyLevel>
+		<gmd:dateStamp>
+			<gco:Date>2016-03-03</gco:Date>
+		</gmd:dateStamp>
+		<gmd:language>
+			<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">English</gmd:LanguageCode>
+		</gmd:language>
+		<gmd:identificationInfo>
+			<gmd:MD_DataIdentification>
+				<gmd:language>
+					<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">English</gmd:LanguageCode>
+				</gmd:language>
+				<gmd:abstract>
+					<gco:CharacterString>This dataset shows the boundaries of the Royal Mail Postcode Districts in Scotland.
+	
+The Postcode Districts are the next hierarchical level above the Postcode Sectors (which in turn, are the next hierarchical level above the individual postcode).  For example, if the individual postcode is EH12 3DG, then that postcode falls within District EH12. 
+
+Postcode District boundaries and Council area boundaries are not coterminous.
+
+This dataset is created twice a year.</gco:CharacterString>
+				</gmd:abstract>
+				<gmd:spatialResolution>
+					<gmd:MD_Resolution>
+						<gmd:distance>
+							<gco:Distance uom="Meters">0.0001</gco:Distance>
+						</gmd:distance>
+						<gmd:equivalentScale>
+							<gmd:MD_RepresentativeFraction>
+								<gmd:denominator>
+									<gco:Integer>10000</gco:Integer>
+								</gmd:denominator>
+							</gmd:MD_RepresentativeFraction>
+						</gmd:equivalentScale>
+					</gmd:MD_Resolution>
+				</gmd:spatialResolution>
+				<gmd:citation>
+					<gmd:CI_Citation>
+						<gmd:title>
+							<gco:CharacterString>District_16_1</gco:CharacterString>
+						</gmd:title>
+						<gmd:date>
+							<gmd:CI_Date>
+								<gmd:date>
+									<gco:Date>2016-03-03</gco:Date>
+								</gmd:date>
+								<gmd:dateType>
+									<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+								</gmd:dateType>
+							</gmd:CI_Date>
+						</gmd:date>
+						<gmd:date>
+							<gmd:CI_Date>
+								<gmd:date>
+									<gco:Date>2016-03-03</gco:Date>
+								</gmd:date>
+								<gmd:dateType>
+									<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+								</gmd:dateType>
+							</gmd:CI_Date>
+						</gmd:date>
+						<gmd:identifier>
+							<gmd:RS_Identifier>
+								<gmd:code>
+									<gco:CharacterString>District_16_1</gco:CharacterString>
+								</gmd:code>
+								<gmd:codeSpace>
+									<gco:CharacterString>www.nrscotland.gov.uk</gco:CharacterString>
+								</gmd:codeSpace>
+							</gmd:RS_Identifier>
+						</gmd:identifier>
+					</gmd:CI_Citation>
+				</gmd:citation>
+				<gmd:topicCategory>
+					<gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+				</gmd:topicCategory>
+				<gmd:descriptiveKeywords>
+					<gmd:MD_Keywords>
+						<gmd:keyword>
+							<gco:CharacterString>statistical units</gco:CharacterString>
+						</gmd:keyword>
+						<gmd:thesaurusName>
+							<gmd:CI_Citation>
+								<gmd:title>
+									<gco:CharacterString>GEMET - INSPIRE themes, version 1.0</gco:CharacterString>
+								</gmd:title>
+								<gmd:date>
+									<gmd:CI_Date>
+										<gmd:date>
+											<gco:Date>2008-06-01</gco:Date>
+										</gmd:date>
+										<gmd:dateType>
+											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+										</gmd:dateType>
+									</gmd:CI_Date>
+								</gmd:date>
+							</gmd:CI_Citation>
+						</gmd:thesaurusName>
+						<gmd:type>
+							<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">Theme</gmd:MD_KeywordTypeCode>
+						</gmd:type>
+					</gmd:MD_Keywords>
+				</gmd:descriptiveKeywords>
+				<gmd:extent>
+					<gmd:EX_Extent>
+						<gmd:geographicElement>
+							<gmd:EX_GeographicDescription>
+								<gmd:geographicIdentifier>
+									<gmd:RS_Identifier>
+										<gmd:code>
+											<gco:CharacterString>SCT</gco:CharacterString>
+										</gmd:code>
+										<gmd:authority>
+											<gmd:CI_Citation>
+												<gmd:title>
+													<gco:CharacterString>ISO3166-2</gco:CharacterString>
+												</gmd:title>
+												<gmd:date>
+													<gmd:CI_Date>
+														<gmd:date>
+															<gco:Date/>
+														</gmd:date>
+														<gmd:dateType>
+															<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue=""/>
+														</gmd:dateType>
+													</gmd:CI_Date>
+												</gmd:date>
+											</gmd:CI_Citation>
+										</gmd:authority>
+									</gmd:RS_Identifier>
+								</gmd:geographicIdentifier>
+							</gmd:EX_GeographicDescription>
+						</gmd:geographicElement>
+						<gmd:geographicElement>
+							<gmd:EX_GeographicBoundingBox>
+								<gmd:westBoundLongitude>
+									<gco:Decimal>-7.75714</gco:Decimal>
+								</gmd:westBoundLongitude>
+								<gmd:eastBoundLongitude>
+									<gco:Decimal>-0.53202</gco:Decimal>
+								</gmd:eastBoundLongitude>
+								<gmd:southBoundLatitude>
+									<gco:Decimal>54.53297</gco:Decimal>
+								</gmd:southBoundLatitude>
+								<gmd:northBoundLatitude>
+									<gco:Decimal>61.46459</gco:Decimal>
+								</gmd:northBoundLatitude>
+							</gmd:EX_GeographicBoundingBox>
+						</gmd:geographicElement>
+						<gmd:temporalElement>
+							<gmd:EX_TemporalExtent>
+								<gmd:extent>
+									<gml:TimePeriod>
+										<gml:beginPosition>2016-01-01</gml:beginPosition>
+										<gml:endPosition/>
+									</gml:TimePeriod>
+								</gmd:extent>
+							</gmd:EX_TemporalExtent>
+						</gmd:temporalElement>
+					</gmd:EX_Extent>
+				</gmd:extent>
+				<gmd:pointOfContact>
+					<gmd:CI_ResponsibleParty>
+						<gmd:individualName>
+							<gco:CharacterString>National Records of Scotland</gco:CharacterString>
+						</gmd:individualName>
+						<gmd:organisationName>
+							<gco:CharacterString>Geography Branch</gco:CharacterString>
+						</gmd:organisationName>
+						<gmd:contactInfo>
+							<gmd:CI_Contact>
+								<gmd:address>
+									<gmd:CI_Address>
+										<gmd:deliveryPoint>
+											<gco:CharacterString>Ladywell House, Ladywell Road</gco:CharacterString>
+										</gmd:deliveryPoint>
+										<gmd:city>
+											<gco:CharacterString>Edinburgh</gco:CharacterString>
+										</gmd:city>
+										<gmd:postalCode>
+											<gco:CharacterString>EH12 7TF</gco:CharacterString>
+										</gmd:postalCode>
+										<gmd:electronicMailAddress>
+											<gco:CharacterString>geographycustomerservices@nrscotland.gov.uk</gco:CharacterString>
+										</gmd:electronicMailAddress>
+										<gmd:country>
+											<gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#Country" codeListValue="GBR">United Kingdom of Great Britain &amp; N. Ireland</gmd:Country>
+										</gmd:country>
+									</gmd:CI_Address>
+								</gmd:address>
+							</gmd:CI_Contact>
+						</gmd:contactInfo>
+						<gmd:role>
+							<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="owner">Owner</gmd:CI_RoleCode>
+						</gmd:role>
+					</gmd:CI_ResponsibleParty>
+				</gmd:pointOfContact>
+				<gmd:resourceConstraints>
+					<gmd:MD_Constraints>
+						<gmd:useLimitation>
+							<gco:CharacterString>The following attribution statement must be used to acknowledge the source of the information: Contains NRS data © Crown copyright and database right (insert year), contains Ordnance Survey data © Crown copyright and database right (insert year).</gco:CharacterString>
+						</gmd:useLimitation>
+						<gmd:useLimitation>
+							<gco:CharacterString>Dataset is complete for Scotland.</gco:CharacterString>
+						</gmd:useLimitation>
+					</gmd:MD_Constraints>
+				</gmd:resourceConstraints>
+				<gmd:resourceConstraints>
+					<gmd:MD_LegalConstraints>
+						<gmd:otherConstraints>
+							<gco:CharacterString>Available under the Ordnance Survey (OS) Open Data Licence (www.ordnancesurvey.co.uk/opendata/licence)</gco:CharacterString>
+						</gmd:otherConstraints>
+						<gmd:otherConstraints>
+							<gco:CharacterString>Postcode Extract data is freely available to One Scotland Mapping Agreement (OSMA) members. Other organisations should contact geographycustomerservices@nrscotland.gov.uk</gco:CharacterString>
+						</gmd:otherConstraints>
+					</gmd:MD_LegalConstraints>
+				</gmd:resourceConstraints>
+				<gmd:resourceMaintenance>
+					<gmd:MD_MaintenanceInformation>
+						<gmd:maintenanceAndUpdateFrequency>
+							<gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="biannually">Biannually</gmd:MD_MaintenanceFrequencyCode>
+						</gmd:maintenanceAndUpdateFrequency>
+					</gmd:MD_MaintenanceInformation>
+				</gmd:resourceMaintenance>
+			</gmd:MD_DataIdentification>
+		</gmd:identificationInfo>
+		<gmd:distributionInfo>
+			<gmd:MD_Distribution>
+				<gmd:transferOptions>
+					<gmd:MD_DigitalTransferOptions>
+						<gmd:onLine>
+							<gmd:CI_OnlineResource>
+								<gmd:linkage>
+									<gmd:URL>http://www.nrscotland.gov.uk/statistics-and-data/geography/nrs-postcode-extract</gmd:URL>
+								</gmd:linkage>
+							</gmd:CI_OnlineResource>
+						</gmd:onLine>
+					</gmd:MD_DigitalTransferOptions>
+				</gmd:transferOptions>
+				<gmd:distributionFormat>
+					<gmd:MD_Format>
+						<gmd:name>
+							<gco:CharacterString>ESRI Arc/View Shapefile</gco:CharacterString>
+						</gmd:name>
+						<gmd:version>
+							<gco:CharacterString></gco:CharacterString>
+						</gmd:version>
+					</gmd:MD_Format>
+				</gmd:distributionFormat>
+			</gmd:MD_Distribution>
+		</gmd:distributionInfo>
+		<gmd:dataQualityInfo>
+			<gmd:DQ_DataQuality>
+				<gmd:lineage>
+					<gmd:LI_Lineage>
+						<gmd:statement>
+							<gco:CharacterString>This dataset shows the boundaries of the Royal Mail Postcode Districts in Scotland.
+
+The Postcode Districts are the next hierarchical level above the Postcode Sectors (which in turn, are the next hierarchical level above the individual postcode).  For example, if the individual postcode is EH12 3DG, then that postcode falls within District EH12.   
+
+All postcodes that fall within the same Districts are identified and the postcode boundaries are dissolved in ArcGIS to create the Postcode Districts map.
+
+Postcode District boundaries and Council area boundaries are not coterminous.
+
+This dataset is created twice a year.</gco:CharacterString>
+						</gmd:statement>
+					</gmd:LI_Lineage>
+				</gmd:lineage>
+			</gmd:DQ_DataQuality>
+		</gmd:dataQualityInfo>
+		<gmd:referenceSystemInfo>
+			<gmd:MD_ReferenceSystem>
+				<gmd:referenceSystemIdentifier>
+					<gmd:RS_Identifier>
+						<gmd:code>
+							<gco:CharacterString>Great Britain National Grid</gco:CharacterString>
+						</gmd:code>
+					</gmd:RS_Identifier>
+				</gmd:referenceSystemIdentifier>
+			</gmd:MD_ReferenceSystem>
+		</gmd:referenceSystemInfo>
+		<gmd:contact>
+			<gmd:CI_ResponsibleParty>
+				<gmd:individualName>
+					<gco:CharacterString>National Records of Scotland</gco:CharacterString>
+				</gmd:individualName>
+				<gmd:organisationName>
+					<gco:CharacterString>Geography Branch</gco:CharacterString>
+				</gmd:organisationName>
+				<gmd:contactInfo>
+					<gmd:CI_Contact>
+						<gmd:address>
+							<gmd:CI_Address>
+								<gmd:deliveryPoint>
+									<gco:CharacterString>Ladywell House, Ladywell Road</gco:CharacterString>
+								</gmd:deliveryPoint>
+								<gmd:city>
+									<gco:CharacterString>Edinburgh</gco:CharacterString>
+								</gmd:city>
+								<gmd:postalCode>
+									<gco:CharacterString>EH12 7TF</gco:CharacterString>
+								</gmd:postalCode>
+								<gmd:electronicMailAddress>
+									<gco:CharacterString>geographycustomerservices@nrscotland.gov.uk</gco:CharacterString>
+								</gmd:electronicMailAddress>
+								<gmd:country>
+									<gmd:Country codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#Country" codeListValue="GBR">United Kingdom of Great Britain &amp; N. Ireland</gmd:Country>
+								</gmd:country>
+							</gmd:CI_Address>
+						</gmd:address>
+					</gmd:CI_Contact>
+				</gmd:contactInfo>
+				<gmd:role>
+					<gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="pointOfContact">Point of contact</gmd:CI_RoleCode>
+				</gmd:role>
+			</gmd:CI_ResponsibleParty>
+		</gmd:contact>
+	</gmd:GEMINI_Metadata></metadata>
